@@ -126,72 +126,7 @@ const Hero = () => {
             </Typography>
           </motion.div>
 
-          {/* CTA Buttons */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.8 }}
-          >
-            <Box
-              sx={{
-                display: 'flex',
-                gap: 3,
-                justifyContent: 'center',
-                flexDirection: { xs: 'column', sm: 'row' },
-                alignItems: 'center',
-                mb: 6,
-              }}
-            >
-              <Button
-                variant="contained"
-                size="large"
-                endIcon={<ArrowRight />}
-                onClick={() => scrollToSection('contact')}
-                sx={{
-                  background: 'linear-gradient(135deg, #00BFFF 0%, #10B981 100%)',
-                  color: 'white',
-                  px: 4,
-                  py: 1.5,
-                  fontSize: '1rem',
-                  fontWeight: 600,
-                  borderRadius: '12px',
-                  textTransform: 'none',
-                  boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)',
-                  '&:hover': {
-                    background: 'linear-gradient(135deg, #0099CC 0%, #059669 100%)',
-                    transform: 'translateY(-2px)',
-                    boxShadow: '0 20px 25px -5px rgb(0 0 0 / 0.1)',
-                  },
-                }}
-              >
-                {t('hero.cta.primary')}
-              </Button>
 
-              <Button
-                variant="outlined"
-                size="large"
-                startIcon={<Download />}
-                sx={{
-                  borderColor: '#CBD5E1',
-                  color: '#475569',
-                  px: 4,
-                  py: 1.5,
-                  fontSize: '1rem',
-                  fontWeight: 500,
-                  borderRadius: '12px',
-                  textTransform: 'none',
-                  '&:hover': {
-                    borderColor: '#00BFFF',
-                    color: '#00BFFF',
-                    bgcolor: 'rgba(0, 191, 255, 0.05)',
-                    transform: 'translateY(-1px)',
-                  },
-                }}
-              >
-                {t('hero.cta.secondary')}
-              </Button>
-            </Box>
-          </motion.div>
 
           {/* Social Links */}
           <motion.div

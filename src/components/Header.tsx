@@ -80,29 +80,7 @@ const Header = () => {
             />
           </ListItem>
         ))}
-        <ListItem sx={{ mt: 3 }}>
-          <Button
-            variant="contained"
-            fullWidth
-            onClick={() => scrollToSection('contact')}
-            sx={{
-              background: 'linear-gradient(135deg, #00BFFF 0%, #10B981 100%)',
-              color: 'white',
-              fontWeight: 600,
-              py: 1.5,
-              borderRadius: '8px',
-              textTransform: 'none',
-              boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)',
-              '&:hover': {
-                background: 'linear-gradient(135deg, #0099CC 0%, #059669 100%)',
-                transform: 'translateY(-1px)',
-                boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)',
-              },
-            }}
-          >
-            {t('nav.cta')}
-          </Button>
-        </ListItem>
+
       </List>
         <motion.div
           initial={{ opacity: 0, y: -10 }}
@@ -209,36 +187,6 @@ const Header = () => {
                 </Button>
               </motion.div>
             ))}
-
-            <motion.div
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.6 }}
-            >
-              <Button
-                variant="contained"
-                onClick={() => scrollToSection('contact')}
-                sx={{
-                  ml: 2,
-                  background: 'linear-gradient(135deg, #00BFFF 0%, #10B981 100%)',
-                  color: 'white',
-                  fontWeight: 600,
-                  px: 4,
-                  py: 1,
-                  borderRadius: '8px',
-                  textTransform: 'none',
-                  fontSize: '0.875rem',
-                  boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)',
-                  '&:hover': {
-                    background: 'linear-gradient(135deg, #0099CC 0%, #059669 100%)',
-                    transform: 'translateY(-1px)',
-                    boxShadow: '0 10px 15px -3px rgb(0 0 0 / 0.1)',
-                  },
-                }}
-              >
-                {t('nav.cta')}
-              </Button>
-            </motion.div>
 
             <FormControl size="small" sx={{ ml: 3, minWidth: 70 }}>
               <Select

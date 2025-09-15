@@ -18,6 +18,7 @@ const translations = {
     'nav.home': 'Início',
     'nav.about': 'Sobre',
     'nav.experience': 'Experiência',
+    'nav.consulting': 'Consultorias',
     'nav.projects': 'Projetos',
     'nav.contact': 'Contato',
     'nav.cta': 'Comece seu projeto',
@@ -50,7 +51,7 @@ const translations = {
     'experience.trustpanel.company': 'TrustPanel',
     'experience.trustpanel.location': 'Dublin, Irlanda',
     'experience.trustpanel.period': '06/2025 - Presente',
-    'experience.trustpanel.desc1': 'Desenvolvo plataforma de gestão de certificados digitais com controle de permissões, rastreamento de expiração e monitoramento de acesso',
+    'experience.trustpanel.desc1': 'Participo do desenvolvimento de uma plataforma de gestão de certificados digitais com controle de permissões, rastreamento de expiração e monitoramento de acesso',
     'experience.trustpanel.desc2': 'Construo APIs seguras e sustentáveis usando Python e Django Rest integradas com PostgreSQL',
     'experience.trustpanel.desc3': 'Desenvolvo interfaces responsivas e performáticas com React e Vite',
     'experience.trustpanel.desc4': 'Implemento testes unitários e de integração para garantir confiabilidade do sistema',
@@ -59,7 +60,7 @@ const translations = {
     
     // JMD Experience
     'experience.jmd.title': 'Software Engineer',
-    'experience.jmd.company': 'JMD Urbanism',
+    'experience.jmd.company': 'JMD Urbanismo',
     'experience.jmd.location': 'Sinop, BR',
     'experience.jmd.period': '10/2022 - 06/2025',
     'experience.jmd.desc1': 'Coordenei o squad de tecnologia, conduzi levantamento de requisitos técnicos e gerenciei backlog',
@@ -97,6 +98,49 @@ const translations = {
     'experience.nightapp.desc3': 'Criei site principal, aprimorando usabilidade e funcionalidade',
     'experience.nightapp.desc4': 'Otimizei gestão de negócios noturnos através de soluções web',
     
+    // Consulting Section
+    'consulting.title': 'Consultorias Especializadas',
+    'consulting.subtitle': 'Projetos de consultoria desenvolvidos para resolver desafios específicos de negócio com soluções tecnológicas inovadoras',
+    'consulting.objectives': 'Objetivos',
+    'consulting.results': 'Resultados',
+    'consulting.technologies': 'Tecnologias Utilizadas',
+    
+    // Panic Button Project
+    'consulting.panicButton.title': 'Sistema Botão do Pânico',
+    'consulting.panicButton.client': 'Sinop Segforte',
+    'consulting.panicButton.location': 'Sinop, MT',
+    'consulting.panicButton.period': '2023',
+    'consulting.panicButton.category': 'Segurança & Emergência',
+    'consulting.panicButton.description': 'Desenvolvimento de aplicativo móvel de segurança com sistema de alerta de emergência em tempo real, integrado com central de monitoramento 24h para resposta rápida a situações de risco.',
+    'consulting.panicButton.obj1': 'Criar sistema de alerta instantâneo para situações de emergência',
+    'consulting.panicButton.obj2': 'Integrar com central de monitoramento 24h da empresa',
+    'consulting.panicButton.obj3': 'Implementar rastreamento GPS preciso para localização',
+    'consulting.panicButton.obj4': 'Garantir funcionamento offline e alta disponibilidade',
+    'consulting.panicButton.result1': 'Tempo de resposta reduzido para menos de 2 minutos',
+    'consulting.panicButton.result2': 'Sistema com 99.9% de disponibilidade operacional',
+    'consulting.panicButton.result3': 'Integração completa com central de monitoramento',
+    'consulting.panicButton.result4': 'Mais de 500 usuários ativos utilizando o sistema',
+    
+    // Fraud Analysis Project
+    'consulting.fraudAnalysis.title': 'Sistema de Análise de Fraudes',
+    'consulting.fraudAnalysis.client': 'Urbano Norte',
+    'consulting.fraudAnalysis.location': 'Cuiabá, MT',
+    'consulting.fraudAnalysis.period': '2023',
+    'consulting.fraudAnalysis.category': 'Análise de Dados & IA',
+    'consulting.fraudAnalysis.description': 'Desenvolvimento de sistema inteligente para detecção e análise de fraudes em corridas de transporte, utilizando algoritmos de machine learning para identificar padrões suspeitos e comportamentos anômalos.',
+    'consulting.fraudAnalysis.obj1': 'Detectar automaticamente corridas fraudulentas ou suspeitas',
+    'consulting.fraudAnalysis.obj2': 'Analisar padrões de comportamento de motoristas e passageiros',
+    'consulting.fraudAnalysis.obj3': 'Reduzir perdas financeiras por fraudes no sistema',
+    'consulting.fraudAnalysis.obj4': 'Criar dashboard para monitoramento em tempo real',
+    'consulting.fraudAnalysis.result1': 'Redução de 85% em fraudes detectadas no sistema',
+    'consulting.fraudAnalysis.result2': 'Economia de R$ 50.000 mensais em perdas por fraude',
+    'consulting.fraudAnalysis.result3': 'Sistema de alertas automáticos implementado',
+    'consulting.fraudAnalysis.result4': 'Dashboard analítico para tomada de decisões',
+    
+    // CTA
+    'consulting.cta.title': 'Precisa de uma Consultoria Especializada?',
+    'consulting.cta.description': 'Desenvolvo soluções personalizadas para resolver desafios específicos do seu negócio com tecnologia de ponta.',
+    
     // Projects Section
     'projects.title': 'Projetos em Destaque',
     'projects.subtitle': 'Projetos recentes demonstrando minha expertise na construção de soluções escaláveis e de nível empresarial',
@@ -131,6 +175,7 @@ const translations = {
     'nav.home': 'Home',
     'nav.about': 'About',
     'nav.experience': 'Experience',
+    'nav.consulting': 'Consulting',
     'nav.projects': 'Projects',
     'nav.contact': 'Contact',
     'nav.cta': 'Start your project',
@@ -172,7 +217,7 @@ const translations = {
     
     // JMD Experience
     'experience.jmd.title': 'Software Engineer',
-    'experience.jmd.company': 'JMD Urbanism',
+    'experience.jmd.company': 'JMD Urbanismo',
     'experience.jmd.location': 'Sinop, BR',
     'experience.jmd.period': '10/2022 - 06/2025',
     'experience.jmd.desc1': 'Coordinated technology squad, conducted technical requirements gathering and managed backlog',
@@ -210,6 +255,49 @@ const translations = {
     'experience.nightapp.desc3': 'Created main website, enhancing usability and functionality',
     'experience.nightapp.desc4': 'Optimized nightlife business management through web solutions',
     
+    // Consulting Section
+    'consulting.title': 'Specialized Consulting',
+    'consulting.subtitle': 'Consulting projects developed to solve specific business challenges with innovative technological solutions',
+    'consulting.objectives': 'Objectives',
+    'consulting.results': 'Results',
+    'consulting.technologies': 'Technologies Used',
+    
+    // Panic Button Project
+    'consulting.panicButton.title': 'Panic Button System',
+    'consulting.panicButton.client': 'Sinop Segforte',
+    'consulting.panicButton.location': 'Sinop, MT',
+    'consulting.panicButton.period': '2023',
+    'consulting.panicButton.category': 'Security & Emergency',
+    'consulting.panicButton.description': 'Development of mobile security application with real-time emergency alert system, integrated with 24h monitoring center for rapid response to risk situations.',
+    'consulting.panicButton.obj1': 'Create instant alert system for emergency situations',
+    'consulting.panicButton.obj2': 'Integrate with company\'s 24h monitoring center',
+    'consulting.panicButton.obj3': 'Implement precise GPS tracking for location',
+    'consulting.panicButton.obj4': 'Ensure offline functionality and high availability',
+    'consulting.panicButton.result1': 'Response time reduced to less than 2 minutes',
+    'consulting.panicButton.result2': 'System with 99.9% operational availability',
+    'consulting.panicButton.result3': 'Complete integration with monitoring center',
+    'consulting.panicButton.result4': 'Over 500 active users using the system',
+    
+    // Fraud Analysis Project
+    'consulting.fraudAnalysis.title': 'Fraud Analysis System',
+    'consulting.fraudAnalysis.client': 'Urbano Norte',
+    'consulting.fraudAnalysis.location': 'Cuiabá, MT',
+    'consulting.fraudAnalysis.period': '2023',
+    'consulting.fraudAnalysis.category': 'Data Analysis & AI',
+    'consulting.fraudAnalysis.description': 'Development of intelligent system for fraud detection and analysis in transport rides, using machine learning algorithms to identify suspicious patterns and anomalous behaviors.',
+    'consulting.fraudAnalysis.obj1': 'Automatically detect fraudulent or suspicious rides',
+    'consulting.fraudAnalysis.obj2': 'Analyze behavior patterns of drivers and passengers',
+    'consulting.fraudAnalysis.obj3': 'Reduce financial losses from system fraud',
+    'consulting.fraudAnalysis.obj4': 'Create dashboard for real-time monitoring',
+    'consulting.fraudAnalysis.result1': '85% reduction in detected fraud in the system',
+    'consulting.fraudAnalysis.result2': 'Monthly savings of R$ 50,000 in fraud losses',
+    'consulting.fraudAnalysis.result3': 'Automatic alert system implemented',
+    'consulting.fraudAnalysis.result4': 'Analytical dashboard for decision making',
+    
+    // CTA
+    'consulting.cta.title': 'Need Specialized Consulting?',
+    'consulting.cta.description': 'I develop customized solutions to solve your business specific challenges with cutting-edge technology.',
+    
     // Projects Section
     'projects.title': 'Featured Projects',
     'projects.subtitle': 'Recent projects showcasing my expertise in building scalable, enterprise-grade solutions',
@@ -244,6 +332,7 @@ const translations = {
     'nav.home': 'Accueil',
     'nav.about': 'À propos',
     'nav.experience': 'Expérience',
+    'nav.consulting': 'Conseil',
     'nav.projects': 'Projets',
     'nav.contact': 'Contact',
     'nav.cta': 'Commencez votre projet',
@@ -285,7 +374,7 @@ const translations = {
     
     // JMD Experience
     'experience.jmd.title': 'Ingénieur Logiciel',
-    'experience.jmd.company': 'JMD Urbanism',
+    'experience.jmd.company': 'JMD Urbanismo',
     'experience.jmd.location': 'Sinop, BR',
     'experience.jmd.period': '10/2022 - 06/2025',
     'experience.jmd.desc1': 'Coordonné l\'équipe technologique, mené la collecte d\'exigences techniques et géré le backlog',
@@ -323,6 +412,49 @@ const translations = {
     'experience.nightapp.desc3': 'Créé le site principal, améliorant l\'utilisabilité et la fonctionnalité',
     'experience.nightapp.desc4': 'Optimisé la gestion des entreprises nocturnes grâce à des solutions web',
     
+    // Consulting Section
+    'consulting.title': 'Conseil Spécialisé',
+    'consulting.subtitle': 'Projets de conseil développés pour résoudre des défis commerciaux spécifiques avec des solutions technologiques innovantes',
+    'consulting.objectives': 'Objectifs',
+    'consulting.results': 'Résultats',
+    'consulting.technologies': 'Technologies Utilisées',
+    
+    // Panic Button Project
+    'consulting.panicButton.title': 'Système Bouton de Panique',
+    'consulting.panicButton.client': 'Sinop Segforte',
+    'consulting.panicButton.location': 'Sinop, MT',
+    'consulting.panicButton.period': '2023',
+    'consulting.panicButton.category': 'Sécurité & Urgence',
+    'consulting.panicButton.description': 'Développement d\'application mobile de sécurité avec système d\'alerte d\'urgence en temps réel, intégré avec centre de surveillance 24h pour réponse rapide aux situations à risque.',
+    'consulting.panicButton.obj1': 'Créer système d\'alerte instantané pour situations d\'urgence',
+    'consulting.panicButton.obj2': 'Intégrer avec centre de surveillance 24h de l\'entreprise',
+    'consulting.panicButton.obj3': 'Implémenter suivi GPS précis pour localisation',
+    'consulting.panicButton.obj4': 'Garantir fonctionnement hors ligne et haute disponibilité',
+    'consulting.panicButton.result1': 'Temps de réponse réduit à moins de 2 minutes',
+    'consulting.panicButton.result2': 'Système avec 99,9% de disponibilité opérationnelle',
+    'consulting.panicButton.result3': 'Intégration complète avec centre de surveillance',
+    'consulting.panicButton.result4': 'Plus de 500 utilisateurs actifs utilisant le système',
+    
+    // Fraud Analysis Project
+    'consulting.fraudAnalysis.title': 'Système d\'Analyse de Fraudes',
+    'consulting.fraudAnalysis.client': 'Urbano Norte',
+    'consulting.fraudAnalysis.location': 'Cuiabá, MT',
+    'consulting.fraudAnalysis.period': '2023',
+    'consulting.fraudAnalysis.category': 'Analyse de Données & IA',
+    'consulting.fraudAnalysis.description': 'Développement de système intelligent pour détection et analyse de fraudes dans courses de transport, utilisant algorithmes d\'apprentissage automatique pour identifier motifs suspects et comportements anormaux.',
+    'consulting.fraudAnalysis.obj1': 'Détecter automatiquement courses frauduleuses ou suspectes',
+    'consulting.fraudAnalysis.obj2': 'Analyser motifs de comportement des conducteurs et passagers',
+    'consulting.fraudAnalysis.obj3': 'Réduire pertes financières par fraudes dans le système',
+    'consulting.fraudAnalysis.obj4': 'Créer tableau de bord pour surveillance en temps réel',
+    'consulting.fraudAnalysis.result1': 'Réduction de 85% des fraudes détectées dans le système',
+    'consulting.fraudAnalysis.result2': 'Économie de R$ 50 000 mensuels en pertes par fraude',
+    'consulting.fraudAnalysis.result3': 'Système d\'alertes automatiques implémenté',
+    'consulting.fraudAnalysis.result4': 'Tableau de bord analytique pour prise de décisions',
+    
+    // CTA
+    'consulting.cta.title': 'Besoin de Conseil Spécialisé?',
+    'consulting.cta.description': 'Je développe des solutions personnalisées pour résoudre les défis spécifiques de votre entreprise avec une technologie de pointe.',
+    
     // Projects Section
     'projects.title': 'Projets en Vedette',
     'projects.subtitle': 'Projets récents démontrant mon expertise dans la construction de solutions évolutives de niveau entreprise',
@@ -357,6 +489,7 @@ const translations = {
     'nav.home': 'Inicio',
     'nav.about': 'Acerca',
     'nav.experience': 'Experiencia',
+    'nav.consulting': 'Consultoría',
     'nav.projects': 'Proyectos',
     'nav.contact': 'Contacto',
     'nav.cta': 'Comienza tu proyecto',
@@ -398,7 +531,7 @@ const translations = {
     
     // JMD Experience
     'experience.jmd.title': 'Ingeniero de Software',
-    'experience.jmd.company': 'JMD Urbanism',
+    'experience.jmd.company': 'JMD Urbanismo',
     'experience.jmd.location': 'Sinop, BR',
     'experience.jmd.period': '10/2022 - 06/2025',
     'experience.jmd.desc1': 'Coordiné el equipo de tecnología, conduje levantamiento de requisitos técnicos y gestioné backlog',
@@ -436,6 +569,49 @@ const translations = {
     'experience.nightapp.desc3': 'Creé sitio principal, mejorando usabilidad y funcionalidad',
     'experience.nightapp.desc4': 'Optimicé gestión de negocios nocturnos a través de soluciones web',
     
+    // Consulting Section
+    'consulting.title': 'Consultoría Especializada',
+    'consulting.subtitle': 'Proyectos de consultoría desarrollados para resolver desafíos comerciales específicos con soluciones tecnológicas innovadoras',
+    'consulting.objectives': 'Objetivos',
+    'consulting.results': 'Resultados',
+    'consulting.technologies': 'Tecnologías Utilizadas',
+    
+    // Panic Button Project
+    'consulting.panicButton.title': 'Sistema Botón de Pánico',
+    'consulting.panicButton.client': 'Sinop Segforte',
+    'consulting.panicButton.location': 'Sinop, MT',
+    'consulting.panicButton.period': '2023',
+    'consulting.panicButton.category': 'Seguridad & Emergencia',
+    'consulting.panicButton.description': 'Desarrollo de aplicación móvil de seguridad con sistema de alerta de emergencia en tiempo real, integrado con centro de monitoreo 24h para respuesta rápida a situaciones de riesgo.',
+    'consulting.panicButton.obj1': 'Crear sistema de alerta instantáneo para situaciones de emergencia',
+    'consulting.panicButton.obj2': 'Integrar con centro de monitoreo 24h de la empresa',
+    'consulting.panicButton.obj3': 'Implementar rastreo GPS preciso para localización',
+    'consulting.panicButton.obj4': 'Garantizar funcionamiento offline y alta disponibilidad',
+    'consulting.panicButton.result1': 'Tiempo de respuesta reducido a menos de 2 minutos',
+    'consulting.panicButton.result2': 'Sistema con 99.9% de disponibilidad operacional',
+    'consulting.panicButton.result3': 'Integración completa con centro de monitoreo',
+    'consulting.panicButton.result4': 'Más de 500 usuarios activos utilizando el sistema',
+    
+    // Fraud Analysis Project
+    'consulting.fraudAnalysis.title': 'Sistema de Análisis de Fraudes',
+    'consulting.fraudAnalysis.client': 'Urbano Norte',
+    'consulting.fraudAnalysis.location': 'Cuiabá, MT',
+    'consulting.fraudAnalysis.period': '2023',
+    'consulting.fraudAnalysis.category': 'Análisis de Datos & IA',
+    'consulting.fraudAnalysis.description': 'Desarrollo de sistema inteligente para detección y análisis de fraudes en carreras de transporte, utilizando algoritmos de machine learning para identificar patrones sospechosos y comportamientos anómalos.',
+    'consulting.fraudAnalysis.obj1': 'Detectar automáticamente carreras fraudulentas o sospechosas',
+    'consulting.fraudAnalysis.obj2': 'Analizar patrones de comportamiento de conductores y pasajeros',
+    'consulting.fraudAnalysis.obj3': 'Reducir pérdidas financieras por fraudes en el sistema',
+    'consulting.fraudAnalysis.obj4': 'Crear dashboard para monitoreo en tiempo real',
+    'consulting.fraudAnalysis.result1': 'Reducción del 85% en fraudes detectados en el sistema',
+    'consulting.fraudAnalysis.result2': 'Ahorro de R$ 50.000 mensuales en pérdidas por fraude',
+    'consulting.fraudAnalysis.result3': 'Sistema de alertas automáticas implementado',
+    'consulting.fraudAnalysis.result4': 'Dashboard analítico para toma de decisiones',
+    
+    // CTA
+    'consulting.cta.title': '¿Necesitas Consultoría Especializada?',
+    'consulting.cta.description': 'Desarrollo soluciones personalizadas para resolver desafíos específicos de tu negocio con tecnología de vanguardia.',
+    
     // Projects Section
     'projects.title': 'Proyectos Destacados',
     'projects.subtitle': 'Proyectos recientes que demuestran mi experiencia en la construcción de soluciones escalables de nivel empresarial',
@@ -470,6 +646,7 @@ const translations = {
     'nav.home': 'Home',
     'nav.about': 'Chi Sono',
     'nav.experience': 'Esperienza',
+    'nav.consulting': 'Consulenza',
     'nav.projects': 'Progetti',
     'nav.contact': 'Contatto',
     'nav.cta': 'Inizia il tuo progetto',
@@ -511,7 +688,7 @@ const translations = {
     
     // JMD Experience
     'experience.jmd.title': 'Ingegnere Software',
-    'experience.jmd.company': 'JMD Urbanism',
+    'experience.jmd.company': 'JMD Urbanismo',
     'experience.jmd.location': 'Sinop, BR',
     'experience.jmd.period': '10/2022 - 06/2025',
     'experience.jmd.desc1': 'Coordinato squad tecnologico, condotto raccolta requisiti tecnici e gestito backlog',
@@ -548,6 +725,49 @@ const translations = {
     'experience.nightapp.desc2': 'Responsabile implementazione nuove funzionalità e miglioramento usabilità',
     'experience.nightapp.desc3': 'Creato sito principale, migliorando usabilità e funzionalità',
     'experience.nightapp.desc4': 'Ottimizzato gestione attività notturne attraverso soluzioni web',
+    
+    // Consulting Section
+    'consulting.title': 'Consulenza Specializzata',
+    'consulting.subtitle': 'Progetti di consulenza sviluppati per risolvere sfide commerciali specifiche con soluzioni tecnologiche innovative',
+    'consulting.objectives': 'Obiettivi',
+    'consulting.results': 'Risultati',
+    'consulting.technologies': 'Tecnologie Utilizzate',
+    
+    // Panic Button Project
+    'consulting.panicButton.title': 'Sistema Pulsante di Panico',
+    'consulting.panicButton.client': 'Sinop Segforte',
+    'consulting.panicButton.location': 'Sinop, MT',
+    'consulting.panicButton.period': '2023',
+    'consulting.panicButton.category': 'Sicurezza & Emergenza',
+    'consulting.panicButton.description': 'Sviluppo di applicazione mobile di sicurezza con sistema di allerta di emergenza in tempo reale, integrato con centro di monitoraggio 24h per risposta rapida a situazioni di rischio.',
+    'consulting.panicButton.obj1': 'Creare sistema di allerta istantaneo per situazioni di emergenza',
+    'consulting.panicButton.obj2': 'Integrare con centro di monitoraggio 24h dell\'azienda',
+    'consulting.panicButton.obj3': 'Implementare tracciamento GPS preciso per localizzazione',
+    'consulting.panicButton.obj4': 'Garantire funzionamento offline e alta disponibilità',
+    'consulting.panicButton.result1': 'Tempo di risposta ridotto a meno di 2 minuti',
+    'consulting.panicButton.result2': 'Sistema con 99,9% di disponibilità operativa',
+    'consulting.panicButton.result3': 'Integrazione completa con centro di monitoraggio',
+    'consulting.panicButton.result4': 'Oltre 500 utenti attivi che utilizzano il sistema',
+    
+    // Fraud Analysis Project
+    'consulting.fraudAnalysis.title': 'Sistema di Analisi Frodi',
+    'consulting.fraudAnalysis.client': 'Urbano Norte',
+    'consulting.fraudAnalysis.location': 'Cuiabá, MT',
+    'consulting.fraudAnalysis.period': '2023',
+    'consulting.fraudAnalysis.category': 'Analisi Dati & IA',
+    'consulting.fraudAnalysis.description': 'Sviluppo di sistema intelligente per rilevamento e analisi frodi in corse di trasporto, utilizzando algoritmi di machine learning per identificare pattern sospetti e comportamenti anomali.',
+    'consulting.fraudAnalysis.obj1': 'Rilevare automaticamente corse fraudolente o sospette',
+    'consulting.fraudAnalysis.obj2': 'Analizzare pattern di comportamento di autisti e passeggeri',
+    'consulting.fraudAnalysis.obj3': 'Ridurre perdite finanziarie da frodi nel sistema',
+    'consulting.fraudAnalysis.obj4': 'Creare dashboard per monitoraggio in tempo reale',
+    'consulting.fraudAnalysis.result1': 'Riduzione dell\'85% delle frodi rilevate nel sistema',
+    'consulting.fraudAnalysis.result2': 'Risparmio di R$ 50.000 mensili in perdite da frode',
+    'consulting.fraudAnalysis.result3': 'Sistema di allerte automatiche implementato',
+    'consulting.fraudAnalysis.result4': 'Dashboard analitico per presa di decisioni',
+    
+    // CTA
+    'consulting.cta.title': 'Hai Bisogno di Consulenza Specializzata?',
+    'consulting.cta.description': 'Sviluppo soluzioni personalizzate per risolvere le sfide specifiche della tua azienda con tecnologia all\'avanguardia.',
     
     // Projects Section
     'projects.title': 'Progetti in Evidenza',
