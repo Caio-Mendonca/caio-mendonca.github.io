@@ -21,6 +21,7 @@ interface Project {
   images: string[]
   github: string
   demo: string
+  keyFeatures?: string
 }
 
 const Projects = () => {
