@@ -128,8 +128,18 @@ const translations = {
     'consulting.panicButton.result4': 'Mais de 500 usuários ativos utilizando o sistema',
     'consulting.panicButton.mobile.title': 'App Mobile - Usuário Final',
     'consulting.panicButton.mobile.description': 'Interface intuitiva para acionamento de emergência com um toque, visualização de status da conexão e histórico de acionamentos.',
+    'consulting.panicButton.mobile.images': JSON.stringify([
+      'https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=400',
+      'https://images.pexels.com/photos/699459/pexels-photo-699459.jpeg?auto=compress&cs=tinysrgb&w=400',
+      'https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=400'
+    ]),
     'consulting.panicButton.web.title': 'Painel Web - Central de Monitoramento',
     'consulting.panicButton.web.description': 'Dashboard completo para operadores com mapa em tempo real, gestão de usuários, histórico de ocorrências e relatórios detalhados.',
+    'consulting.panicButton.web.images': JSON.stringify([
+      'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=800'
+    ]),
 
     // Fraud Analysis Project
     'consulting.fraudAnalysis.title': 'Sistema de Análise de Fraudes',
@@ -149,6 +159,11 @@ const translations = {
     'consulting.fraudAnalysis.result4': 'Dashboard analítico para tomada de decisões',
     'consulting.fraudAnalysis.web.title': 'Dashboard Analítico',
     'consulting.fraudAnalysis.web.description': 'Interface completa com gráficos em tempo real, alertas de fraude, relatórios detalhados e ferramentas de análise de dados.',
+    'consulting.fraudAnalysis.web.images': JSON.stringify([
+      'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800'
+    ]),
     
     // CTA
     'consulting.cta.title': 'Precisa de uma Consultoria Especializada?',
@@ -298,8 +313,18 @@ const translations = {
     'consulting.panicButton.result4': 'Over 500 active users using the system',
     'consulting.panicButton.mobile.title': 'Mobile App - End User',
     'consulting.panicButton.mobile.description': 'Intuitive interface for one-touch emergency activation, connection status visualization and activation history.',
+    'consulting.panicButton.mobile.images': JSON.stringify([
+      'https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=400',
+      'https://images.pexels.com/photos/699459/pexels-photo-699459.jpeg?auto=compress&cs=tinysrgb&w=400',
+      'https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=400'
+    ]),
     'consulting.panicButton.web.title': 'Web Panel - Monitoring Center',
     'consulting.panicButton.web.description': 'Complete dashboard for operators with real-time map, user management, incident history and detailed reports.',
+    'consulting.panicButton.web.images': JSON.stringify([
+      'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=800'
+    ]),
 
     // Fraud Analysis Project
     'consulting.fraudAnalysis.title': 'Fraud Analysis System',
@@ -319,6 +344,11 @@ const translations = {
     'consulting.fraudAnalysis.result4': 'Analytical dashboard for decision making',
     'consulting.fraudAnalysis.web.title': 'Analytical Dashboard',
     'consulting.fraudAnalysis.web.description': 'Complete interface with real-time charts, fraud alerts, detailed reports and data analysis tools.',
+    'consulting.fraudAnalysis.web.images': JSON.stringify([
+      'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800'
+    ]),
     
     // CTA
     'consulting.cta.title': 'Need Specialized Consulting?',
@@ -468,8 +498,18 @@ const translations = {
     'consulting.panicButton.result4': 'Plus de 500 utilisateurs actifs utilisant le système',
     'consulting.panicButton.mobile.title': 'App Mobile - Utilisateur Final',
     'consulting.panicButton.mobile.description': 'Interface intuitive pour activation d\'urgence en un toucher, visualisation du statut de connexion et historique des activations.',
+    'consulting.panicButton.mobile.images': JSON.stringify([
+      'https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=400',
+      'https://images.pexels.com/photos/699459/pexels-photo-699459.jpeg?auto=compress&cs=tinysrgb&w=400',
+      'https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=400'
+    ]),
     'consulting.panicButton.web.title': 'Panneau Web - Centre de Surveillance',
     'consulting.panicButton.web.description': 'Tableau de bord complet pour opérateurs avec carte en temps réel, gestion des utilisateurs, historique des incidents et rapports détaillés.',
+    'consulting.panicButton.web.images': JSON.stringify([
+      'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=800'
+    ]),
 
     // Fraud Analysis Project
     'consulting.fraudAnalysis.title': 'Système d\'Analyse de Fraudes',
@@ -489,6 +529,11 @@ const translations = {
     'consulting.fraudAnalysis.result4': 'Tableau de bord analytique pour prise de décisions',
     'consulting.fraudAnalysis.web.title': 'Tableau de Bord Analytique',
     'consulting.fraudAnalysis.web.description': 'Interface complète avec graphiques en temps réel, alertes de fraude, rapports détaillés et outils d\'analyse de données.',
+    'consulting.fraudAnalysis.web.images': JSON.stringify([
+      'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800'
+    ]),
     
     // CTA
     'consulting.cta.title': 'Besoin de Conseil Spécialisé?',
@@ -638,8 +683,18 @@ const translations = {
     'consulting.panicButton.result4': 'Más de 500 usuarios activos utilizando el sistema',
     'consulting.panicButton.mobile.title': 'App Móvil - Usuario Final',
     'consulting.panicButton.mobile.description': 'Interfaz intuitiva para activación de emergencia con un toque, visualización del estado de conexión e historial de activaciones.',
+    'consulting.panicButton.mobile.images': JSON.stringify([
+      'https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=400',
+      'https://images.pexels.com/photos/699459/pexels-photo-699459.jpeg?auto=compress&cs=tinysrgb&w=400',
+      'https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=400'
+    ]),
     'consulting.panicButton.web.title': 'Panel Web - Centro de Monitoreo',
     'consulting.panicButton.web.description': 'Dashboard completo para operadores con mapa en tiempo real, gestión de usuarios, historial de incidentes e informes detallados.',
+    'consulting.panicButton.web.images': JSON.stringify([
+      'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=800'
+    ]),
 
     // Fraud Analysis Project
     'consulting.fraudAnalysis.title': 'Sistema de Análisis de Fraudes',
@@ -659,6 +714,11 @@ const translations = {
     'consulting.fraudAnalysis.result4': 'Dashboard analítico para toma de decisiones',
     'consulting.fraudAnalysis.web.title': 'Dashboard Analítico',
     'consulting.fraudAnalysis.web.description': 'Interfaz completa con gráficos en tiempo real, alertas de fraude, informes detallados y herramientas de análisis de datos.',
+    'consulting.fraudAnalysis.web.images': JSON.stringify([
+      'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800'
+    ]),
     
     // CTA
     'consulting.cta.title': '¿Necesitas Consultoría Especializada?',
@@ -808,8 +868,18 @@ const translations = {
     'consulting.panicButton.result4': 'Oltre 500 utenti attivi che utilizzano il sistema',
     'consulting.panicButton.mobile.title': 'App Mobile - Utente Finale',
     'consulting.panicButton.mobile.description': 'Interfaccia intuitiva per attivazione emergenza con un tocco, visualizzazione stato connessione e storico attivazioni.',
+    'consulting.panicButton.mobile.images': JSON.stringify([
+      'https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=400',
+      'https://images.pexels.com/photos/699459/pexels-photo-699459.jpeg?auto=compress&cs=tinysrgb&w=400',
+      'https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=400'
+    ]),
     'consulting.panicButton.web.title': 'Pannello Web - Centro di Monitoraggio',
     'consulting.panicButton.web.description': 'Dashboard completo per operatori con mappa in tempo reale, gestione utenti, storico incidenti e report dettagliati.',
+    'consulting.panicButton.web.images': JSON.stringify([
+      'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=800'
+    ]),
 
     // Fraud Analysis Project
     'consulting.fraudAnalysis.title': 'Sistema di Analisi Frodi',
@@ -829,6 +899,11 @@ const translations = {
     'consulting.fraudAnalysis.result4': 'Dashboard analitico per presa di decisioni',
     'consulting.fraudAnalysis.web.title': 'Dashboard Analitico',
     'consulting.fraudAnalysis.web.description': 'Interfaccia completa con grafici in tempo reale, allerte frode, report dettagliati e strumenti analisi dati.',
+    'consulting.fraudAnalysis.web.images': JSON.stringify([
+      'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800'
+    ]),
     
     // CTA
     'consulting.cta.title': 'Hai Bisogno di Consulenza Specializzata?',
