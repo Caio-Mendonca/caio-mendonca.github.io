@@ -89,11 +89,15 @@ Você pode usar URLs completas de serviços de hospedagem de imagens:
 - **Largura**: 400-600px
 - **Altura**: 800-1200px
 - **Proporção**: 9:16 (formato vertical de celular)
+- **Tamanho do mockup no modal**: 280x560px
+- **Tamanho do mockup no card de preview**: 180x360px
 
 ### Para Imagens Desktop:
 - **Largura**: 1200-1920px
 - **Altura**: 700-1080px
 - **Proporção**: 16:9 (formato panorâmico)
+- **Tamanho do mockup no modal**: Largura máxima 700px, altura 400px (quando tem mobile) ou 380px (quando só tem desktop)
+- **Tamanho do mockup no card de preview**: 280x180px (quando tem mobile) ou 400x250px (quando só tem desktop)
 
 ## Aplicar em Todos os Idiomas
 
@@ -118,20 +122,35 @@ Exemplo:
 
 ## Resultado Final
 
-Após adicionar suas imagens, cada projeto terá:
+Após adicionar suas imagens, cada projeto terá **dois níveis de visualização**:
 
-1. **Botão do Pânico**:
-   - Bloco 1: Mockup de celular com carrossel + texto descritivo
-   - Bloco 2: Mockup de computador com carrossel (tela cheia)
-
-2. **Análise de Fraudes**:
-   - Um bloco: Mockup de computador com carrossel + texto ao lado
-
-Os carrosséis têm:
-- Navegação automática (3 segundos por imagem)
-- Setas de navegação (← →)
+### 1. Cards de Preview (Visualização Inicial)
+Ao visualizar a lista de projetos, cada card mostrará:
+- Mockups de dispositivos em tamanho menor (preview)
+- Carrosséis funcionais com as imagens
+- Navegação automática (4 segundos por imagem)
 - Indicadores de páginas (bolinhas)
-- Transições suaves
+
+**Layout dos Cards:**
+- **Botão do Pânico**: Celular (180x360px) + Desktop (280x180px) lado a lado
+- **Análise de Fraudes**: Desktop (400x250px) centralizado
+
+### 2. Modal Detalhado (Ao Clicar no Projeto)
+Ao clicar em "Ver Detalhes", o modal mostrará:
+
+**Botão do Pânico:**
+- Bloco 1: Mockup de celular (280x560px) + texto descritivo ao lado
+- Bloco 2: Mockup de computador (700x400px) em largura total
+
+**Análise de Fraudes:**
+- Um bloco: Mockup de computador (650x380px) + texto ao lado
+
+### Recursos dos Carrosséis:
+- Navegação automática (3.5 segundos por imagem no modal)
+- Setas de navegação (← →) nos carrosséis desktop
+- Indicadores de páginas (bolinhas) em todos os carrosséis
+- Transições suaves e animadas
+- Pausa automática ao passar o mouse
 
 ## Dúvidas?
 

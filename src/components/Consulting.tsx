@@ -372,6 +372,189 @@ const Consulting = () => {
                           </Box>
                         </Grid>
 
+                        {/* Platform Previews */}
+                        {(project.platforms.mobile || project.platforms.web) && (
+                          <Grid item xs={12}>
+                            <Grid container spacing={3}>
+                              {project.platforms.mobile && (
+                                <Grid item xs={12} md={project.platforms.web ? 6 : 12}>
+                                  <Box
+                                    sx={{
+                                      display: 'flex',
+                                      flexDirection: 'column',
+                                      alignItems: 'center',
+                                      gap: 2,
+                                    }}
+                                  >
+                                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                                      <PhoneAndroid sx={{ fontSize: 20, color: project.color }} />
+                                      <Typography
+                                        variant="subtitle2"
+                                        sx={{ fontWeight: 600, color: '#64748B' }}
+                                      >
+                                        {project.platforms.mobile.title}
+                                      </Typography>
+                                    </Box>
+                                    {/* Mobile Preview */}
+                                    <Box
+                                      sx={{
+                                        width: 180,
+                                        height: 360,
+                                        bgcolor: '#1F2937',
+                                        borderRadius: '24px',
+                                        p: '10px',
+                                        position: 'relative',
+                                        boxShadow: '0 10px 25px rgba(0,0,0,0.3)',
+                                      }}
+                                    >
+                                      <Box
+                                        sx={{
+                                          width: '100%',
+                                          height: '100%',
+                                          borderRadius: '18px',
+                                          overflow: 'hidden',
+                                          bgcolor: '#000',
+                                        }}
+                                      >
+                                        <Swiper
+                                          modules={[Pagination, Autoplay]}
+                                          spaceBetween={0}
+                                          slidesPerView={1}
+                                          pagination={{ clickable: true }}
+                                          autoplay={{ delay: 4000, disableOnInteraction: false }}
+                                          style={{ width: '100%', height: '100%' }}
+                                        >
+                                          {project.platforms.mobile.images.map((img, idx) => (
+                                            <SwiperSlide key={idx}>
+                                              <Box
+                                                component="img"
+                                                src={img}
+                                                alt={`${project.platforms.mobile?.title} preview ${idx + 1}`}
+                                                sx={{
+                                                  width: '100%',
+                                                  height: '100%',
+                                                  objectFit: 'cover',
+                                                }}
+                                              />
+                                            </SwiperSlide>
+                                          ))}
+                                        </Swiper>
+                                      </Box>
+                                      <Box
+                                        sx={{
+                                          position: 'absolute',
+                                          bottom: 6,
+                                          left: '50%',
+                                          transform: 'translateX(-50%)',
+                                          width: 60,
+                                          height: 4,
+                                          bgcolor: '#4B5563',
+                                          borderRadius: 2,
+                                          zIndex: 10,
+                                        }}
+                                      />
+                                    </Box>
+                                  </Box>
+                                </Grid>
+                              )}
+
+                              {project.platforms.web && (
+                                <Grid item xs={12} md={project.platforms.mobile ? 6 : 12}>
+                                  <Box
+                                    sx={{
+                                      display: 'flex',
+                                      flexDirection: 'column',
+                                      alignItems: 'center',
+                                      gap: 2,
+                                    }}
+                                  >
+                                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                                      <Laptop sx={{ fontSize: 20, color: project.color }} />
+                                      <Typography
+                                        variant="subtitle2"
+                                        sx={{ fontWeight: 600, color: '#64748B' }}
+                                      >
+                                        {project.platforms.web.title}
+                                      </Typography>
+                                    </Box>
+                                    {/* Laptop Preview */}
+                                    <Box
+                                      sx={{
+                                        width: project.platforms.mobile ? 280 : 400,
+                                        position: 'relative',
+                                      }}
+                                    >
+                                      <Box
+                                        sx={{
+                                          width: '100%',
+                                          height: project.platforms.mobile ? 180 : 250,
+                                          bgcolor: '#1F2937',
+                                          borderRadius: '10px 10px 0 0',
+                                          p: '6px',
+                                          boxShadow: '0 10px 25px rgba(0,0,0,0.3)',
+                                        }}
+                                      >
+                                        <Box
+                                          sx={{
+                                            width: '100%',
+                                            height: '100%',
+                                            borderRadius: '6px',
+                                            overflow: 'hidden',
+                                            bgcolor: '#000',
+                                          }}
+                                        >
+                                          <Swiper
+                                            modules={[Pagination, Navigation, Autoplay]}
+                                            spaceBetween={0}
+                                            slidesPerView={1}
+                                            pagination={{ clickable: true }}
+                                            navigation={!project.platforms.mobile}
+                                            autoplay={{ delay: 4000, disableOnInteraction: false }}
+                                            style={{ width: '100%', height: '100%' }}
+                                          >
+                                            {project.platforms.web.images.map((img, idx) => (
+                                              <SwiperSlide key={idx}>
+                                                <Box
+                                                  component="img"
+                                                  src={img}
+                                                  alt={`${project.platforms.web?.title} preview ${idx + 1}`}
+                                                  sx={{
+                                                    width: '100%',
+                                                    height: '100%',
+                                                    objectFit: 'cover',
+                                                  }}
+                                                />
+                                              </SwiperSlide>
+                                            ))}
+                                          </Swiper>
+                                        </Box>
+                                      </Box>
+                                      <Box
+                                        sx={{
+                                          width: '100%',
+                                          height: 18,
+                                          bgcolor: '#374151',
+                                          borderRadius: '0 0 12px 12px',
+                                        }}
+                                      />
+                                      <Box
+                                        sx={{
+                                          width: 60,
+                                          height: 8,
+                                          bgcolor: '#4B5563',
+                                          borderRadius: '4px',
+                                          mx: 'auto',
+                                          mt: 1,
+                                        }}
+                                      />
+                                    </Box>
+                                  </Box>
+                                </Grid>
+                              )}
+                            </Grid>
+                          </Grid>
+                        )}
+
                         {/* Technologies */}
                         <Grid item xs={12}>
                           <Box
@@ -615,7 +798,7 @@ const Consulting = () => {
                       </Box>
 
                       <Grid container spacing={4} alignItems="center">
-                        <Grid item xs={12} md={6}>
+                        <Grid item xs={12} md={5}>
                           {/* Mobile Frame with Carousel Inside */}
                           <Box
                             sx={{
@@ -625,13 +808,13 @@ const Consulting = () => {
                           >
                             <Box
                               sx={{
-                                width: 240,
-                                height: 480,
+                                width: 280,
+                                height: 560,
                                 bgcolor: '#1F2937',
-                                borderRadius: '32px',
-                                p: '12px',
+                                borderRadius: '36px',
+                                p: '14px',
                                 position: 'relative',
-                                boxShadow: '0 20px 50px rgba(0,0,0,0.4)',
+                                boxShadow: '0 25px 60px rgba(0,0,0,0.5)',
                               }}
                             >
                               {/* Screen with Carousel */}
@@ -639,7 +822,7 @@ const Consulting = () => {
                                 sx={{
                                   width: '100%',
                                   height: '100%',
-                                  borderRadius: '22px',
+                                  borderRadius: '24px',
                                   overflow: 'hidden',
                                   position: 'relative',
                                   bgcolor: '#000',
@@ -650,7 +833,7 @@ const Consulting = () => {
                                   spaceBetween={0}
                                   slidesPerView={1}
                                   pagination={{ clickable: true }}
-                                  autoplay={{ delay: 3000, disableOnInteraction: false }}
+                                  autoplay={{ delay: 3500, disableOnInteraction: false }}
                                   style={{ width: '100%', height: '100%' }}
                                 >
                                   {selectedProject.platforms.mobile.images.map((img, idx) => (
@@ -673,13 +856,13 @@ const Consulting = () => {
                               <Box
                                 sx={{
                                   position: 'absolute',
-                                  bottom: 8,
+                                  bottom: 10,
                                   left: '50%',
                                   transform: 'translateX(-50%)',
-                                  width: 80,
-                                  height: 4,
-                                  bgcolor: '#374151',
-                                  borderRadius: 2,
+                                  width: 100,
+                                  height: 5,
+                                  bgcolor: '#4B5563',
+                                  borderRadius: 3,
                                   zIndex: 10,
                                 }}
                               />
@@ -687,17 +870,19 @@ const Consulting = () => {
                           </Box>
                         </Grid>
 
-                        <Grid item xs={12} md={6}>
-                          <Typography
-                            variant="body1"
-                            sx={{
-                              color: '#475569',
-                              lineHeight: 1.8,
-                              fontSize: '1.05rem',
-                            }}
-                          >
-                            {selectedProject.platforms.mobile.description}
-                          </Typography>
+                        <Grid item xs={12} md={7}>
+                          <Box sx={{ pl: { md: 3 } }}>
+                            <Typography
+                              variant="body1"
+                              sx={{
+                                color: '#475569',
+                                lineHeight: 1.8,
+                                fontSize: '1.1rem',
+                              }}
+                            >
+                              {selectedProject.platforms.mobile.description}
+                            </Typography>
+                          </Box>
                         </Grid>
                       </Grid>
                     </Box>
@@ -720,7 +905,7 @@ const Consulting = () => {
                       </Box>
 
                       <Grid container spacing={4} alignItems="center">
-                        <Grid item xs={12} md={selectedProject.platforms.mobile ? 12 : 7}>
+                        <Grid item xs={12} md={selectedProject.platforms.mobile ? 12 : 8}>
                           {/* Laptop Frame with Carousel Inside */}
                           <Box
                             sx={{
@@ -730,8 +915,8 @@ const Consulting = () => {
                           >
                             <Box
                               sx={{
-                                width: selectedProject.platforms.mobile ? '100%' : 500,
-                                maxWidth: 600,
+                                width: '100%',
+                                maxWidth: selectedProject.platforms.mobile ? 700 : 650,
                                 position: 'relative',
                               }}
                             >
@@ -739,18 +924,18 @@ const Consulting = () => {
                               <Box
                                 sx={{
                                   width: '100%',
-                                  height: selectedProject.platforms.mobile ? 280 : 320,
+                                  height: selectedProject.platforms.mobile ? 400 : 380,
                                   bgcolor: '#1F2937',
-                                  borderRadius: '12px 12px 0 0',
-                                  p: '8px',
-                                  boxShadow: '0 20px 50px rgba(0,0,0,0.4)',
+                                  borderRadius: '16px 16px 0 0',
+                                  p: '10px',
+                                  boxShadow: '0 25px 60px rgba(0,0,0,0.5)',
                                 }}
                               >
                                 <Box
                                   sx={{
                                     width: '100%',
                                     height: '100%',
-                                    borderRadius: '6px',
+                                    borderRadius: '8px',
                                     overflow: 'hidden',
                                     bgcolor: '#000',
                                   }}
@@ -761,7 +946,7 @@ const Consulting = () => {
                                     slidesPerView={1}
                                     pagination={{ clickable: true }}
                                     navigation
-                                    autoplay={{ delay: 3000, disableOnInteraction: false }}
+                                    autoplay={{ delay: 3500, disableOnInteraction: false }}
                                     style={{ width: '100%', height: '100%' }}
                                   >
                                     {selectedProject.platforms.web.images.map((img, idx) => (
@@ -785,20 +970,20 @@ const Consulting = () => {
                               <Box
                                 sx={{
                                   width: '100%',
-                                  height: 24,
+                                  height: 28,
                                   bgcolor: '#374151',
-                                  borderRadius: '0 0 16px 16px',
+                                  borderRadius: '0 0 18px 18px',
                                 }}
                               />
                               {/* Stand */}
                               <Box
                                 sx={{
-                                  width: 80,
-                                  height: 10,
+                                  width: 100,
+                                  height: 12,
                                   bgcolor: '#4B5563',
-                                  borderRadius: '6px',
+                                  borderRadius: '8px',
                                   mx: 'auto',
-                                  mt: 1,
+                                  mt: 1.5,
                                 }}
                               />
                             </Box>
@@ -806,17 +991,19 @@ const Consulting = () => {
                         </Grid>
 
                         {!selectedProject.platforms.mobile && (
-                          <Grid item xs={12} md={5}>
-                            <Typography
-                              variant="body1"
-                              sx={{
-                                color: '#475569',
-                                lineHeight: 1.8,
-                                fontSize: '1.05rem',
-                              }}
-                            >
-                              {selectedProject.platforms.web.description}
-                            </Typography>
+                          <Grid item xs={12} md={4}>
+                            <Box sx={{ pl: { md: 2 } }}>
+                              <Typography
+                                variant="body1"
+                                sx={{
+                                  color: '#475569',
+                                  lineHeight: 1.8,
+                                  fontSize: '1.1rem',
+                                }}
+                              >
+                                {selectedProject.platforms.web.description}
+                              </Typography>
+                            </Box>
                           </Grid>
                         )}
                       </Grid>
