@@ -104,7 +104,12 @@ const translations = {
     'consulting.objectives': 'Objetivos',
     'consulting.results': 'Resultados',
     'consulting.technologies': 'Tecnologias Utilizadas',
-    
+    'consulting.modal.period': 'Período',
+    'consulting.modal.location': 'Localização',
+    'consulting.modal.category': 'Categoria',
+    'consulting.modal.platforms': 'Plataformas Desenvolvidas',
+    'consulting.modal.mainResults': 'Principais Resultados',
+
     // Panic Button Project
     'consulting.panicButton.title': 'Sistema Botão do Pânico',
     'consulting.panicButton.client': 'Sinop Segforte',
@@ -112,6 +117,7 @@ const translations = {
     'consulting.panicButton.period': '2023',
     'consulting.panicButton.category': 'Segurança & Emergência',
     'consulting.panicButton.description': 'Desenvolvimento de aplicativo móvel de segurança com sistema de alerta de emergência em tempo real, integrado com central de monitoramento 24h para resposta rápida a situações de risco.',
+    'consulting.panicButton.fullDescription': 'Sistema completo de segurança pessoal desenvolvido para a Sinop Segforte, incluindo aplicativo mobile para usuários finais e painel web administrativo para operadores da central de monitoramento. O sistema permite acionamento de emergência com um toque, enviando localização GPS precisa e dados do usuário instantaneamente para a central 24h.',
     'consulting.panicButton.obj1': 'Criar sistema de alerta instantâneo para situações de emergência',
     'consulting.panicButton.obj2': 'Integrar com central de monitoramento 24h da empresa',
     'consulting.panicButton.obj3': 'Implementar rastreamento GPS preciso para localização',
@@ -120,7 +126,11 @@ const translations = {
     'consulting.panicButton.result2': 'Sistema com 99.9% de disponibilidade operacional',
     'consulting.panicButton.result3': 'Integração completa com central de monitoramento',
     'consulting.panicButton.result4': 'Mais de 500 usuários ativos utilizando o sistema',
-    
+    'consulting.panicButton.mobile.title': 'App Mobile - Usuário Final',
+    'consulting.panicButton.mobile.description': 'Interface intuitiva para acionamento de emergência com um toque, visualização de status da conexão e histórico de acionamentos.',
+    'consulting.panicButton.web.title': 'Painel Web - Central de Monitoramento',
+    'consulting.panicButton.web.description': 'Dashboard completo para operadores com mapa em tempo real, gestão de usuários, histórico de ocorrências e relatórios detalhados.',
+
     // Fraud Analysis Project
     'consulting.fraudAnalysis.title': 'Sistema de Análise de Fraudes',
     'consulting.fraudAnalysis.client': 'Urbano Norte',
@@ -128,6 +138,7 @@ const translations = {
     'consulting.fraudAnalysis.period': '2023',
     'consulting.fraudAnalysis.category': 'Análise de Dados & IA',
     'consulting.fraudAnalysis.description': 'Desenvolvimento de sistema inteligente para detecção e análise de fraudes em corridas de transporte, utilizando algoritmos de machine learning para identificar padrões suspeitos e comportamentos anômalos.',
+    'consulting.fraudAnalysis.fullDescription': 'Sistema inteligente de análise de fraudes desenvolvido para a Urbano Norte, utilizando algoritmos de Machine Learning para detectar padrões suspeitos em corridas de transporte urbano. O sistema analisa em tempo real dados como rotas, horários, valores e comportamentos para identificar possíveis fraudes.',
     'consulting.fraudAnalysis.obj1': 'Detectar automaticamente corridas fraudulentas ou suspeitas',
     'consulting.fraudAnalysis.obj2': 'Analisar padrões de comportamento de motoristas e passageiros',
     'consulting.fraudAnalysis.obj3': 'Reduzir perdas financeiras por fraudes no sistema',
@@ -136,6 +147,8 @@ const translations = {
     'consulting.fraudAnalysis.result2': 'Economia de R$ 50.000 mensais em perdas por fraude',
     'consulting.fraudAnalysis.result3': 'Sistema de alertas automáticos implementado',
     'consulting.fraudAnalysis.result4': 'Dashboard analítico para tomada de decisões',
+    'consulting.fraudAnalysis.web.title': 'Dashboard Analítico',
+    'consulting.fraudAnalysis.web.description': 'Interface completa com gráficos em tempo real, alertas de fraude, relatórios detalhados e ferramentas de análise de dados.',
     
     // CTA
     'consulting.cta.title': 'Precisa de uma Consultoria Especializada?',
@@ -261,7 +274,12 @@ const translations = {
     'consulting.objectives': 'Objectives',
     'consulting.results': 'Results',
     'consulting.technologies': 'Technologies Used',
-    
+    'consulting.modal.period': 'Period',
+    'consulting.modal.location': 'Location',
+    'consulting.modal.category': 'Category',
+    'consulting.modal.platforms': 'Developed Platforms',
+    'consulting.modal.mainResults': 'Main Results',
+
     // Panic Button Project
     'consulting.panicButton.title': 'Panic Button System',
     'consulting.panicButton.client': 'Sinop Segforte',
@@ -269,6 +287,7 @@ const translations = {
     'consulting.panicButton.period': '2023',
     'consulting.panicButton.category': 'Security & Emergency',
     'consulting.panicButton.description': 'Development of mobile security application with real-time emergency alert system, integrated with 24h monitoring center for rapid response to risk situations.',
+    'consulting.panicButton.fullDescription': 'Complete personal security system developed for Sinop Segforte, including mobile app for end users and administrative web panel for monitoring center operators. The system allows emergency activation with one touch, instantly sending precise GPS location and user data to the 24h center.',
     'consulting.panicButton.obj1': 'Create instant alert system for emergency situations',
     'consulting.panicButton.obj2': 'Integrate with company\'s 24h monitoring center',
     'consulting.panicButton.obj3': 'Implement precise GPS tracking for location',
@@ -277,7 +296,11 @@ const translations = {
     'consulting.panicButton.result2': 'System with 99.9% operational availability',
     'consulting.panicButton.result3': 'Complete integration with monitoring center',
     'consulting.panicButton.result4': 'Over 500 active users using the system',
-    
+    'consulting.panicButton.mobile.title': 'Mobile App - End User',
+    'consulting.panicButton.mobile.description': 'Intuitive interface for one-touch emergency activation, connection status visualization and activation history.',
+    'consulting.panicButton.web.title': 'Web Panel - Monitoring Center',
+    'consulting.panicButton.web.description': 'Complete dashboard for operators with real-time map, user management, incident history and detailed reports.',
+
     // Fraud Analysis Project
     'consulting.fraudAnalysis.title': 'Fraud Analysis System',
     'consulting.fraudAnalysis.client': 'Urbano Norte',
@@ -285,6 +308,7 @@ const translations = {
     'consulting.fraudAnalysis.period': '2023',
     'consulting.fraudAnalysis.category': 'Data Analysis & AI',
     'consulting.fraudAnalysis.description': 'Development of intelligent system for fraud detection and analysis in transport rides, using machine learning algorithms to identify suspicious patterns and anomalous behaviors.',
+    'consulting.fraudAnalysis.fullDescription': 'Intelligent fraud analysis system developed for Urbano Norte, using Machine Learning algorithms to detect suspicious patterns in urban transport rides. The system analyzes in real-time data such as routes, schedules, values and behaviors to identify possible frauds.',
     'consulting.fraudAnalysis.obj1': 'Automatically detect fraudulent or suspicious rides',
     'consulting.fraudAnalysis.obj2': 'Analyze behavior patterns of drivers and passengers',
     'consulting.fraudAnalysis.obj3': 'Reduce financial losses from system fraud',
@@ -293,6 +317,8 @@ const translations = {
     'consulting.fraudAnalysis.result2': 'Monthly savings of R$ 50,000 in fraud losses',
     'consulting.fraudAnalysis.result3': 'Automatic alert system implemented',
     'consulting.fraudAnalysis.result4': 'Analytical dashboard for decision making',
+    'consulting.fraudAnalysis.web.title': 'Analytical Dashboard',
+    'consulting.fraudAnalysis.web.description': 'Complete interface with real-time charts, fraud alerts, detailed reports and data analysis tools.',
     
     // CTA
     'consulting.cta.title': 'Need Specialized Consulting?',
@@ -418,7 +444,12 @@ const translations = {
     'consulting.objectives': 'Objectifs',
     'consulting.results': 'Résultats',
     'consulting.technologies': 'Technologies Utilisées',
-    
+    'consulting.modal.period': 'Période',
+    'consulting.modal.location': 'Localisation',
+    'consulting.modal.category': 'Catégorie',
+    'consulting.modal.platforms': 'Plateformes Développées',
+    'consulting.modal.mainResults': 'Principaux Résultats',
+
     // Panic Button Project
     'consulting.panicButton.title': 'Système Bouton de Panique',
     'consulting.panicButton.client': 'Sinop Segforte',
@@ -426,6 +457,7 @@ const translations = {
     'consulting.panicButton.period': '2023',
     'consulting.panicButton.category': 'Sécurité & Urgence',
     'consulting.panicButton.description': 'Développement d\'application mobile de sécurité avec système d\'alerte d\'urgence en temps réel, intégré avec centre de surveillance 24h pour réponse rapide aux situations à risque.',
+    'consulting.panicButton.fullDescription': 'Système complet de sécurité personnelle développé pour Sinop Segforte, incluant application mobile pour utilisateurs finaux et panneau web administratif pour opérateurs du centre de surveillance. Le système permet activation d\'urgence en un toucher, envoyant instantanément localisation GPS précise et données utilisateur au centre 24h.',
     'consulting.panicButton.obj1': 'Créer système d\'alerte instantané pour situations d\'urgence',
     'consulting.panicButton.obj2': 'Intégrer avec centre de surveillance 24h de l\'entreprise',
     'consulting.panicButton.obj3': 'Implémenter suivi GPS précis pour localisation',
@@ -434,7 +466,11 @@ const translations = {
     'consulting.panicButton.result2': 'Système avec 99,9% de disponibilité opérationnelle',
     'consulting.panicButton.result3': 'Intégration complète avec centre de surveillance',
     'consulting.panicButton.result4': 'Plus de 500 utilisateurs actifs utilisant le système',
-    
+    'consulting.panicButton.mobile.title': 'App Mobile - Utilisateur Final',
+    'consulting.panicButton.mobile.description': 'Interface intuitive pour activation d\'urgence en un toucher, visualisation du statut de connexion et historique des activations.',
+    'consulting.panicButton.web.title': 'Panneau Web - Centre de Surveillance',
+    'consulting.panicButton.web.description': 'Tableau de bord complet pour opérateurs avec carte en temps réel, gestion des utilisateurs, historique des incidents et rapports détaillés.',
+
     // Fraud Analysis Project
     'consulting.fraudAnalysis.title': 'Système d\'Analyse de Fraudes',
     'consulting.fraudAnalysis.client': 'Urbano Norte',
@@ -442,6 +478,7 @@ const translations = {
     'consulting.fraudAnalysis.period': '2023',
     'consulting.fraudAnalysis.category': 'Analyse de Données & IA',
     'consulting.fraudAnalysis.description': 'Développement de système intelligent pour détection et analyse de fraudes dans courses de transport, utilisant algorithmes d\'apprentissage automatique pour identifier motifs suspects et comportements anormaux.',
+    'consulting.fraudAnalysis.fullDescription': 'Système intelligent d\'analyse de fraudes développé pour Urbano Norte, utilisant algorithmes de Machine Learning pour détecter motifs suspects dans courses de transport urbain. Le système analyse en temps réel données comme itinéraires, horaires, valeurs et comportements pour identifier fraudes possibles.',
     'consulting.fraudAnalysis.obj1': 'Détecter automatiquement courses frauduleuses ou suspectes',
     'consulting.fraudAnalysis.obj2': 'Analyser motifs de comportement des conducteurs et passagers',
     'consulting.fraudAnalysis.obj3': 'Réduire pertes financières par fraudes dans le système',
@@ -450,6 +487,8 @@ const translations = {
     'consulting.fraudAnalysis.result2': 'Économie de R$ 50 000 mensuels en pertes par fraude',
     'consulting.fraudAnalysis.result3': 'Système d\'alertes automatiques implémenté',
     'consulting.fraudAnalysis.result4': 'Tableau de bord analytique pour prise de décisions',
+    'consulting.fraudAnalysis.web.title': 'Tableau de Bord Analytique',
+    'consulting.fraudAnalysis.web.description': 'Interface complète avec graphiques en temps réel, alertes de fraude, rapports détaillés et outils d\'analyse de données.',
     
     // CTA
     'consulting.cta.title': 'Besoin de Conseil Spécialisé?',
@@ -575,7 +614,12 @@ const translations = {
     'consulting.objectives': 'Objetivos',
     'consulting.results': 'Resultados',
     'consulting.technologies': 'Tecnologías Utilizadas',
-    
+    'consulting.modal.period': 'Período',
+    'consulting.modal.location': 'Ubicación',
+    'consulting.modal.category': 'Categoría',
+    'consulting.modal.platforms': 'Plataformas Desarrolladas',
+    'consulting.modal.mainResults': 'Principales Resultados',
+
     // Panic Button Project
     'consulting.panicButton.title': 'Sistema Botón de Pánico',
     'consulting.panicButton.client': 'Sinop Segforte',
@@ -583,6 +627,7 @@ const translations = {
     'consulting.panicButton.period': '2023',
     'consulting.panicButton.category': 'Seguridad & Emergencia',
     'consulting.panicButton.description': 'Desarrollo de aplicación móvil de seguridad con sistema de alerta de emergencia en tiempo real, integrado con centro de monitoreo 24h para respuesta rápida a situaciones de riesgo.',
+    'consulting.panicButton.fullDescription': 'Sistema completo de seguridad personal desarrollado para Sinop Segforte, incluyendo aplicación móvil para usuarios finales y panel web administrativo para operadores del centro de monitoreo. El sistema permite activación de emergencia con un toque, enviando instantáneamente ubicación GPS precisa y datos del usuario al centro 24h.',
     'consulting.panicButton.obj1': 'Crear sistema de alerta instantáneo para situaciones de emergencia',
     'consulting.panicButton.obj2': 'Integrar con centro de monitoreo 24h de la empresa',
     'consulting.panicButton.obj3': 'Implementar rastreo GPS preciso para localización',
@@ -591,7 +636,11 @@ const translations = {
     'consulting.panicButton.result2': 'Sistema con 99.9% de disponibilidad operacional',
     'consulting.panicButton.result3': 'Integración completa con centro de monitoreo',
     'consulting.panicButton.result4': 'Más de 500 usuarios activos utilizando el sistema',
-    
+    'consulting.panicButton.mobile.title': 'App Móvil - Usuario Final',
+    'consulting.panicButton.mobile.description': 'Interfaz intuitiva para activación de emergencia con un toque, visualización del estado de conexión e historial de activaciones.',
+    'consulting.panicButton.web.title': 'Panel Web - Centro de Monitoreo',
+    'consulting.panicButton.web.description': 'Dashboard completo para operadores con mapa en tiempo real, gestión de usuarios, historial de incidentes e informes detallados.',
+
     // Fraud Analysis Project
     'consulting.fraudAnalysis.title': 'Sistema de Análisis de Fraudes',
     'consulting.fraudAnalysis.client': 'Urbano Norte',
@@ -599,6 +648,7 @@ const translations = {
     'consulting.fraudAnalysis.period': '2023',
     'consulting.fraudAnalysis.category': 'Análisis de Datos & IA',
     'consulting.fraudAnalysis.description': 'Desarrollo de sistema inteligente para detección y análisis de fraudes en carreras de transporte, utilizando algoritmos de machine learning para identificar patrones sospechosos y comportamientos anómalos.',
+    'consulting.fraudAnalysis.fullDescription': 'Sistema inteligente de análisis de fraudes desarrollado para Urbano Norte, utilizando algoritmos de Machine Learning para detectar patrones sospechosos en carreras de transporte urbano. El sistema analiza en tiempo real datos como rutas, horarios, valores y comportamientos para identificar posibles fraudes.',
     'consulting.fraudAnalysis.obj1': 'Detectar automáticamente carreras fraudulentas o sospechosas',
     'consulting.fraudAnalysis.obj2': 'Analizar patrones de comportamiento de conductores y pasajeros',
     'consulting.fraudAnalysis.obj3': 'Reducir pérdidas financieras por fraudes en el sistema',
@@ -607,6 +657,8 @@ const translations = {
     'consulting.fraudAnalysis.result2': 'Ahorro de R$ 50.000 mensuales en pérdidas por fraude',
     'consulting.fraudAnalysis.result3': 'Sistema de alertas automáticas implementado',
     'consulting.fraudAnalysis.result4': 'Dashboard analítico para toma de decisiones',
+    'consulting.fraudAnalysis.web.title': 'Dashboard Analítico',
+    'consulting.fraudAnalysis.web.description': 'Interfaz completa con gráficos en tiempo real, alertas de fraude, informes detallados y herramientas de análisis de datos.',
     
     // CTA
     'consulting.cta.title': '¿Necesitas Consultoría Especializada?',
@@ -732,7 +784,12 @@ const translations = {
     'consulting.objectives': 'Obiettivi',
     'consulting.results': 'Risultati',
     'consulting.technologies': 'Tecnologie Utilizzate',
-    
+    'consulting.modal.period': 'Periodo',
+    'consulting.modal.location': 'Posizione',
+    'consulting.modal.category': 'Categoria',
+    'consulting.modal.platforms': 'Piattaforme Sviluppate',
+    'consulting.modal.mainResults': 'Risultati Principali',
+
     // Panic Button Project
     'consulting.panicButton.title': 'Sistema Pulsante di Panico',
     'consulting.panicButton.client': 'Sinop Segforte',
@@ -740,6 +797,7 @@ const translations = {
     'consulting.panicButton.period': '2023',
     'consulting.panicButton.category': 'Sicurezza & Emergenza',
     'consulting.panicButton.description': 'Sviluppo di applicazione mobile di sicurezza con sistema di allerta di emergenza in tempo reale, integrato con centro di monitoraggio 24h per risposta rapida a situazioni di rischio.',
+    'consulting.panicButton.fullDescription': 'Sistema completo di sicurezza personale sviluppato per Sinop Segforte, includendo applicazione mobile per utenti finali e pannello web amministrativo per operatori del centro di monitoraggio. Il sistema permette attivazione di emergenza con un tocco, inviando istantaneamente posizione GPS precisa e dati utente al centro 24h.',
     'consulting.panicButton.obj1': 'Creare sistema di allerta istantaneo per situazioni di emergenza',
     'consulting.panicButton.obj2': 'Integrare con centro di monitoraggio 24h dell\'azienda',
     'consulting.panicButton.obj3': 'Implementare tracciamento GPS preciso per localizzazione',
@@ -748,7 +806,11 @@ const translations = {
     'consulting.panicButton.result2': 'Sistema con 99,9% di disponibilità operativa',
     'consulting.panicButton.result3': 'Integrazione completa con centro di monitoraggio',
     'consulting.panicButton.result4': 'Oltre 500 utenti attivi che utilizzano il sistema',
-    
+    'consulting.panicButton.mobile.title': 'App Mobile - Utente Finale',
+    'consulting.panicButton.mobile.description': 'Interfaccia intuitiva per attivazione emergenza con un tocco, visualizzazione stato connessione e storico attivazioni.',
+    'consulting.panicButton.web.title': 'Pannello Web - Centro di Monitoraggio',
+    'consulting.panicButton.web.description': 'Dashboard completo per operatori con mappa in tempo reale, gestione utenti, storico incidenti e report dettagliati.',
+
     // Fraud Analysis Project
     'consulting.fraudAnalysis.title': 'Sistema di Analisi Frodi',
     'consulting.fraudAnalysis.client': 'Urbano Norte',
@@ -756,6 +818,7 @@ const translations = {
     'consulting.fraudAnalysis.period': '2023',
     'consulting.fraudAnalysis.category': 'Analisi Dati & IA',
     'consulting.fraudAnalysis.description': 'Sviluppo di sistema intelligente per rilevamento e analisi frodi in corse di trasporto, utilizzando algoritmi di machine learning per identificare pattern sospetti e comportamenti anomali.',
+    'consulting.fraudAnalysis.fullDescription': 'Sistema intelligente di analisi frodi sviluppato per Urbano Norte, utilizzando algoritmi di Machine Learning per rilevare pattern sospetti in corse di trasporto urbano. Il sistema analizza in tempo reale dati come percorsi, orari, valori e comportamenti per identificare possibili frodi.',
     'consulting.fraudAnalysis.obj1': 'Rilevare automaticamente corse fraudolente o sospette',
     'consulting.fraudAnalysis.obj2': 'Analizzare pattern di comportamento di autisti e passeggeri',
     'consulting.fraudAnalysis.obj3': 'Ridurre perdite finanziarie da frodi nel sistema',
@@ -764,6 +827,8 @@ const translations = {
     'consulting.fraudAnalysis.result2': 'Risparmio di R$ 50.000 mensili in perdite da frode',
     'consulting.fraudAnalysis.result3': 'Sistema di allerte automatiche implementato',
     'consulting.fraudAnalysis.result4': 'Dashboard analitico per presa di decisioni',
+    'consulting.fraudAnalysis.web.title': 'Dashboard Analitico',
+    'consulting.fraudAnalysis.web.description': 'Interfaccia completa con grafici in tempo reale, allerte frode, report dettagliati e strumenti analisi dati.',
     
     // CTA
     'consulting.cta.title': 'Hai Bisogno di Consulenza Specializzata?',

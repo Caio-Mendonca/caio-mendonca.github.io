@@ -48,7 +48,7 @@ const Consulting = () => {
       period: t('consulting.panicButton.period'),
       category: t('consulting.panicButton.category'),
       description: t('consulting.panicButton.description'),
-      fullDescription: 'Sistema completo de segurança pessoal desenvolvido para a Sinop Segforte, incluindo aplicativo mobile para usuários finais e painel web administrativo para operadores da central de monitoramento. O sistema permite acionamento de emergência com um toque, enviando localização GPS precisa e dados do usuário instantaneamente para a central 24h.',
+      fullDescription: t('consulting.panicButton.fullDescription'),
       objectives: [
         t('consulting.panicButton.obj1'),
         t('consulting.panicButton.obj2'),
@@ -64,13 +64,13 @@ const Consulting = () => {
       technologies: ['React Native', 'Node.js', 'WebSocket', 'GPS Tracking', 'Push Notifications', 'MongoDB'],
       platforms: {
         mobile: {
-          title: 'App Mobile - Usuário Final',
-          description: 'Interface intuitiva para acionamento de emergência com um toque, visualização de status da conexão e histórico de acionamentos.',
+          title: t('consulting.panicButton.mobile.title'),
+          description: t('consulting.panicButton.mobile.description'),
           image: 'https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=400'
         },
         web: {
-          title: 'Painel Web - Central de Monitoramento',
-          description: 'Dashboard completo para operadores com mapa em tempo real, gestão de usuários, histórico de ocorrências e relatórios detalhados.',
+          title: t('consulting.panicButton.web.title'),
+          description: t('consulting.panicButton.web.description'),
           image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800'
         }
       },
@@ -86,7 +86,7 @@ const Consulting = () => {
       period: t('consulting.fraudAnalysis.period'),
       category: t('consulting.fraudAnalysis.category'),
       description: t('consulting.fraudAnalysis.description'),
-      fullDescription: 'Sistema inteligente de análise de fraudes desenvolvido para a Urbano Norte, utilizando algoritmos de Machine Learning para detectar padrões suspeitos em corridas de transporte urbano. O sistema analisa em tempo real dados como rotas, horários, valores e comportamentos para identificar possíveis fraudes.',
+      fullDescription: t('consulting.fraudAnalysis.fullDescription'),
       objectives: [
         t('consulting.fraudAnalysis.obj1'),
         t('consulting.fraudAnalysis.obj2'),
@@ -102,8 +102,8 @@ const Consulting = () => {
       technologies: ['Python', 'Machine Learning', 'Data Analysis', 'PostgreSQL', 'FastAPI', 'Pandas'],
       platforms: {
         web: {
-          title: 'Dashboard Analítico',
-          description: 'Interface completa com gráficos em tempo real, alertas de fraude, relatórios detalhados e ferramentas de análise de dados.',
+          title: t('consulting.fraudAnalysis.web.title'),
+          description: t('consulting.fraudAnalysis.web.description'),
           image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800'
         }
       },
@@ -527,7 +527,7 @@ const Consulting = () => {
                       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 1 }}>
                         <CalendarToday sx={{ fontSize: 20, color: '#64748B' }} />
                         <Typography variant="body2" sx={{ color: '#64748B', fontWeight: 500 }}>
-                          Período
+                          {t('consulting.modal.period')}
                         </Typography>
                       </Box>
                       <Typography variant="body1" sx={{ fontWeight: 600, color: '#0A192F' }}>
@@ -538,7 +538,7 @@ const Consulting = () => {
                       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 1 }}>
                         <Business sx={{ fontSize: 20, color: '#64748B' }} />
                         <Typography variant="body2" sx={{ color: '#64748B', fontWeight: 500 }}>
-                          Localização
+                          {t('consulting.modal.location')}
                         </Typography>
                       </Box>
                       <Typography variant="body1" sx={{ fontWeight: 600, color: '#0A192F' }}>
@@ -549,7 +549,7 @@ const Consulting = () => {
                       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 1 }}>
                         <Group sx={{ fontSize: 20, color: '#64748B' }} />
                         <Typography variant="body2" sx={{ color: '#64748B', fontWeight: 500 }}>
-                          Categoria
+                          {t('consulting.modal.category')}
                         </Typography>
                       </Box>
                       <Chip
@@ -590,7 +590,7 @@ const Consulting = () => {
                       color: '#0A192F',
                     }}
                   >
-                    Plataformas Desenvolvidas
+                    {t('consulting.modal.platforms')}
                   </Typography>
 
                   <Grid container spacing={4} sx={{ mb: 4 }}>
@@ -792,7 +792,7 @@ const Consulting = () => {
                         color: '#0A192F',
                       }}
                     >
-                      Tecnologias Utilizadas
+                      {t('consulting.technologies')}
                     </Typography>
                     <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
                       {selectedProject.technologies.map((tech) => (
@@ -829,7 +829,7 @@ const Consulting = () => {
                       }}
                     >
                       <CheckCircle sx={{ fontSize: 20, color: '#10B981' }} />
-                      Principais Resultados
+                      {t('consulting.modal.mainResults')}
                     </Typography>
                     <Box component="ul" sx={{ pl: 2 }}>
                       {selectedProject.results.map((result, index) => (
