@@ -400,3 +400,12 @@ h6 { font-size: 1.25rem; font-weight: 600; }
 .swiper-button-disabled {
   opacity: 0.3 !important;
 }
+
+/* Modal Carousel Specific Styles */
+.swiper-pagination-bullet {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+.swiper-pagination-bullet-active {
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.4) !important;
+}

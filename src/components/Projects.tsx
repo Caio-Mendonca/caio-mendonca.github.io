@@ -2,9 +2,15 @@
 
 import { useState } from 'react'
 import { Box, Typography, Container, Grid, Card, CardContent, Button, Chip, Modal, IconButton, Divider } from '@mui/material'
-import { GitHub, Launch, ArrowForward, Close, CalendarToday, Group, TrendingUp } from '@mui/icons-material'
+import { GitHub, Launch, ArrowForward, Close, CalendarToday, Group, TrendingUp, NavigateBefore, NavigateNext } from '@mui/icons-material'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useLanguage } from './LanguageProvider'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Pagination, Autoplay } from 'swiper/modules'
+import type { Swiper as SwiperType } from 'swiper'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 
 interface Project {
   id: string
@@ -27,6 +33,7 @@ interface Project {
 const Projects = () => {
   const { t } = useLanguage()
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
+  const [swiperInstance, setSwiperInstance] = useState<SwiperType | null>(null)
 
   const projects: Project[] = [
     {
@@ -421,31 +428,94 @@ const Projects = () => {
                   <Close />
                 </IconButton>
 
-                {/* Project Images */}
+                {/* Project Images Carousel */}
                 <Box
                   sx={{
-                    height: 300,
+                    height: 400,
                     position: 'relative',
                     borderRadius: '20px 20px 0 0',
                     overflow: 'hidden',
                   }}
                 >
-                  <Box
-                    sx={{
-                      height: '100%',
-                      backgroundImage: `url(${selectedProject.images[0]})`,
-                      backgroundSize: 'cover',
-                      backgroundPosition: 'center',
+                  <Swiper
+                    modules={[Navigation, Pagination, Autoplay]}
+                    spaceBetween={0}
+                    slidesPerView={1}
+                    navigation={{
+                      prevEl: '.swiper-button-prev-modal',
+                      nextEl: '.swiper-button-next-modal',
                     }}
-                  />
+                    pagination={{
+                      clickable: true,
+                      dynamicBullets: true,
+                    }}
+                    autoplay={{
+                      delay: 4000,
+                      disableOnInteraction: false,
+                    }}
+                    loop={true}
+                    onSwiper={setSwiperInstance}
+                    style={{ height: '100%' }}
+                  >
+                    {selectedProject.images.map((image, index) => (
+                      <SwiperSlide key={index}>
+                        <Box
+                          sx={{
+                            height: '100%',
+                            backgroundImage: `url(${image})`,
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center',
+                          }}
+                        />
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+
+                  {/* Custom Navigation Buttons */}
+                  <IconButton
+                    className="swiper-button-prev-modal"
+                    sx={{
+                      position: 'absolute',
+                      left: 16,
+                      top: '50%',
+                      transform: 'translateY(-50%)',
+                      bgcolor: 'rgba(255, 255, 255, 0.9)',
+                      zIndex: 10,
+                      '&:hover': {
+                        bgcolor: 'rgba(255, 255, 255, 1)',
+                      },
+                    }}
+                  >
+                    <NavigateBefore />
+                  </IconButton>
+
+                  <IconButton
+                    className="swiper-button-next-modal"
+                    sx={{
+                      position: 'absolute',
+                      right: 16,
+                      top: '50%',
+                      transform: 'translateY(-50%)',
+                      bgcolor: 'rgba(255, 255, 255, 0.9)',
+                      zIndex: 10,
+                      '&:hover': {
+                        bgcolor: 'rgba(255, 255, 255, 1)',
+                      },
+                    }}
+                  >
+                    <NavigateNext />
+                  </IconButton>
+
+                  {/* Project Info Overlay */}
                   <Box
                     sx={{
                       position: 'absolute',
                       bottom: 0,
                       left: 0,
                       right: 0,
-                      background: 'linear-gradient(transparent, rgba(0,0,0,0.7))',
+                      background: 'linear-gradient(transparent, rgba(0,0,0,0.8))',
                       p: 3,
+                      zIndex: 5,
                     }}
                   >
                     <Typography
